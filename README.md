@@ -31,7 +31,6 @@ $ npm install
 $ npm start
 ```
 
-
 NPM Commands
 ------------
 
