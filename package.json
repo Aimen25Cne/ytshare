@@ -1,6 +1,6 @@
 {
   "name": "YTshare",
-  "version": "1.0.0",
+  "version": "1.2.5",
   "description": "A socket.io server & React client providing synchronized playback of youtube videos between multiple users",
   "homepage": "https://ytshare.herokuapp.com",
   "repository": {
@@ -31,7 +31,7 @@
   },
   "proxy": {
     "/socket.io": {
-      "target": "ws://localhost:3001",
+      "target": "ws://0.0.0.0:3001",
       "ws": true
     }
   },
