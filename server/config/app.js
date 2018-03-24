@@ -9,7 +9,7 @@ import { pathConfig } from './'
 //-------------------------------------
 export const appConfig = {
 	// server address
-	host: '0.0.0.0',
+	host: process.env.HOST || '0.0.0.0',
 	port: process.env.PORT || 3001,
 
 	configureApp: app => {
