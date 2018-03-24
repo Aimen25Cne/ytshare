@@ -27,7 +27,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "postinstallok": "npm run start-prod"
   },
   "proxy": {
     "/socket.io": {
