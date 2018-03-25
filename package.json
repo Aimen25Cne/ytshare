@@ -65,5 +65,8 @@
   "devDependencies": {
     "nodemon": "1.11.0",
     "reify": "0.4.4"
-  }
+  },
+  "config": {
+    "unsafe-perm":true
+}
 }
