@@ -20,7 +20,6 @@
   "scripts": {
     "start": "concurrently -r \"npm run start:server\" \"npm run start:client\"",
     "start:client": "react-scripts start",
-    "start": "npm install --unsafe-perm",
     "start:server": "nodemon --require reify ./server/main.js",
     "start-prod": "npm run start-prod:server",
     "start-prod:server": "DEBUG=APP:MAIN cross-env NODE_ENV=production node --require reify ./server/main.js",
@@ -29,6 +28,7 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build",
     "postinstall": "npm run build",
+    "heroku-postbuild": "npm install --unsafe-perm",
     "postinstallok": "npm run start-prod"
   },
   "proxy": {
